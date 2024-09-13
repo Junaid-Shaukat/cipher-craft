@@ -1,5 +1,4 @@
 import "./globals.css";
-import {NextUIProvider} from '@nextui-org/react'
 export const metadata = {
   title: "ResumeAlign",
   description: "Align resume with job expectation",
