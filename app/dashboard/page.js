@@ -1,17 +1,17 @@
 "use client";
 import FileUpload from "@/components/Dashboard/FileUpload";
 import React, { useState } from "react";
-import { Button } from "@/components/ui/button"; // Shadcn button
-import { FormComponent } from "@/components/Dashboard/FormComponent"; // Shadcn form component
+import { Button } from "@/components/ui/button";
+import { FormComponent } from "@/components/Dashboard/FormComponent";
 import DashHeader from "@/components/Dashboard/DashHeader";
 import {FaPlus} from 'react-icons/fa';
 
 const Page = () => {
-  const [forms, setForms] = useState([]); // Start with no forms
+  const [forms, setForms] = useState([]);
 
   // Function to add new form
   const addForm = () => {
-    setForms([...forms, forms.length]); // Add new form by incrementing index
+    setForms([...forms, forms.length]); 
   };
 
   return (
