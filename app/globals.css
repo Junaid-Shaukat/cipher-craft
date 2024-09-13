@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+=======
+*{
+    scroll-behavior: smooth;
+}
+>>>>>>> b281f4a7c8c229e01396b12c5057a88e090e1343

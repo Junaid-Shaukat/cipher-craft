@@ -70,6 +70,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="space-x-4">
+<<<<<<< HEAD
                 <Button
                   size="lg"
                   className="transition-transform hover:scale-105"
@@ -85,6 +86,12 @@ export default function LandingPage() {
                   >
                     <ArrowRight className="mr-2 h-4 w-4" /> Schedule Demo
                   </Button> */}
+=======
+                <Button>
+                  <Link href="/dashboard">Get Started</Link>
+                </Button>
+                <Button variant="outline">Learn More</Button>
+>>>>>>> b281f4a7c8c229e01396b12c5057a88e090e1343
               </div>
             </div>
           </div>
