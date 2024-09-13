@@ -53,7 +53,9 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Button>Get Started</Button>
+                <Button>
+                  <Link href="/dashboard">Get Started</Link>
+                </Button>
                 <Button variant="outline">Learn More</Button>
               </div>
             </div>
